@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- LLAMAMOS A NUESTROS ESTILOS PERSONALIZADOS para la cabecera-->
+    <link rel="stylesheet" href="/css/index-styles.css">
+    <!-- Llamos a uestros estilos de pie de página-->
+    <link rel="stylesheet" href="/css/piepagina-styles.css">
+    <!--Llamamos los estilos del carrusel-->
+    <link rel="stylesheet" href="/css/carrusel.css">
+    <title>Donde la Otra</title>
+</head>
+
+<body>
+    <!--Importamos la cabecera con el menú-->
+    <div id="cabecera-menu"></div>
+
+    <!--Insertamos un carrusel-->
+    <!-- Carousel -->
+    <div id="demo" class="caja-carrusel carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.l_24ndlNKCgBGnb3mwChkgHaFJ%26pid%3DApi&f=1&ipt=d5a299ff3e76a6b0e58019d68971c503db85f705e41ac19ba092dd4208fc3a86&ipo=images" alt="Los Angeles" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Lr8ejtdsWbk4EU4Najr0lgHaE6%26pid%3DApi&f=1&ipt=f5233d94f6824fc793922c8bed423c909ff9179c2fc0ffdfb7c888ca82e76b72&ipo=images" alt="Chicago" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.r6ekjOp2mo2_R6aewB3OmwHaE7%26pid%3DApi&f=1&ipt=b3a2634d2947409a35b9d54ce534abf8d65fef66208e176f367614590baf1c18&ipo=images" alt="New York" class="d-block w-100">
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+
+
+    <!--Importamos la caja con el pie de página-->
+    <div id="pie-pagina-menu"></div>
+
+    <!--Llamo a mis archivos java script para el encabezado-->
+    <script src="/js/index-script.js"></script>
+    <!--Llamo al pie de página-->
+    <script src="/js/pie-pagina-script.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

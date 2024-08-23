@@ -1,0 +1,17 @@
+.piepagina-contenedor {
+    width: 90%;
+    margin: 25px;
+    margin-top: 45px;
+    margin-left: 3%;
+    padding: 25px;
+    border: 1px solid #f113f1;
+    text-align: center;
+    background-color: rgb(129, 43, 129);
+    color:aqua;
+    box-shadow: -12px 12px 12px #9006c7;
+}
+
+.piepagina-contenedor h1:hover{
+    font-size: 48px;
+    color: rgb(132, 23, 146);
+}
